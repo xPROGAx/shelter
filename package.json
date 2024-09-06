@@ -1,0 +1,45 @@
+{
+  "name": "shelter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xPROGAx/shelter.git"
+  },
+  "author": "xPROGAx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xPROGAx/shelter/issues"
+  },
+  "homepage": "https://github.com/xPROGAx/shelter#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "glob": "^11.0.0",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^3.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "html-minifier-terser": "^7.2.0",
+    "rimraf": "^6.0.1",
+    "sass": "^1.77.8",
+    "through2": "^4.0.2",
+    "uuid": "^10.0.0"
+  },
+  "browserslist": [
+    "defaults and fully supports es6-module",
+    "maintained node versions"
+  ]
+}
