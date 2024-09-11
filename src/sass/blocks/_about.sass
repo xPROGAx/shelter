@@ -1,0 +1,19 @@
+.about
+    width: 100%
+    display: inline-flex
+    justify-content: space-evenly
+    align-items: flex-end
+    padding: 80px 40px 100px
+    &__content
+        width: 430px
+        display: flex
+        flex-direction: column
+        padding: 14px 0
+        &-title
+            width: 370px
+            @include h3
+            color: $color-dark-l
+        &-subtitle
+            @include paragraph_l
+            padding-top: 25px
+            color: $color-dark-xl
