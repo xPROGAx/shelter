@@ -1,8 +1,7 @@
 .header
     width: 100%
     position: absolute
-    margin-top: 30px
-    padding: 0 40px
+    padding: 30px 40px 0
     display: flex
     justify-content: space-between
     align-items: center
@@ -24,16 +23,16 @@
             text-align: center
             position: relative
             top: 10px
-            color: #fff
+            color: $color-light-xl
     &__link
-        color: #cdcdcd
+        color: $color-dark-s
         &:hover
             text-decoration: none
-            color: #fafafa
+            color: $color-light-s
         &:active
             text-decoration: underline $color-primary 3px
             text-underline-offset: 7px
-            color: #fafafa
+            color: $color-light-s
         &_td-none 
             &:hover
                 text-decoration: none
@@ -44,7 +43,4 @@
         align-items: center
         list-style-type: none
     &__list
-        font-size: 15px
-        font-weight: 400
-        line-height: 24px
-        text-align: left
+        @include paragraph-l

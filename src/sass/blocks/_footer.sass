@@ -1,0 +1,25 @@
+.footer
+    width: 100%
+    background: url(../assets/img/noises.png), linear-gradient(130deg, rgba(81, 61, 47, 1), rgba(26, 26, 28, 1))
+    &__wrapper
+        display: inline-flex
+        align-items: flex-start
+        gap: 195px
+        margin: 40px 40px 0
+    &__content
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        gap: 40px
+        padding-top: 16px
+    &__title
+        width: 280px
+        @include h3
+        color: $color-light-xl
+    &__items
+        display: inline-flex
+        align-items: center
+        gap: 20px
+        h4
+            @include h4
+            color: $color-primary
